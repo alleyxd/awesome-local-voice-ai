@@ -47,10 +47,12 @@ Every entry is open source and checked by hand. Each section starts with where t
 
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) - Microphone to text with VAD, wake words and low latency, built on faster-whisper.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Near-live transcription server and clients over WebSocket.
+- [HEX](https://github.com/anomalyco/hex) - Local dictation app in Rust: hold a shortcut, speak, and the text is pasted into any app. On-device models, macOS first.
 
 ## Text to speech
 
 - [Kokoro](https://github.com/hexgrad/kokoro) - 82M-parameter model with natural speech, small enough to run beside an LLM on one GPU or on a CPU. Good default.
+- [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) - 100M-parameter multilingual TTS with voice cloning that runs in real time on a CPU, with an ONNX build.
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) - Expressive TTS with zero-shot voice cloning and emotion control.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - Flow-matching TTS with strong zero-shot voice cloning.
 - [Fish Speech](https://github.com/fishaudio/fish-speech) - Multilingual TTS and voice cloning with high quality from short references.
@@ -58,6 +60,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast, lightweight TTS that runs well on a Raspberry Pi, used by Home Assistant.
 - [Coqui TTS](https://github.com/idiap/coqui-ai-TTS) - Maintained fork of the Coqui toolkit with many models, including XTTS voice cloning.
 - [Dia](https://github.com/nari-labs/dia) - Generates multi-speaker dialogue, including laughs and pauses, in one pass.
+- [VibeVoice](https://github.com/microsoft/VibeVoice) - Microsoft's open voice models: long-form multi-speaker TTS (up to 90 minutes, 4 speakers), a 0.5B real-time TTS and a multilingual ASR model.
 - [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) - LLM-based TTS with human-like intonation and emotion tags.
 - [CSM](https://github.com/SesameAILabs/csm) - Sesame's conversational speech model, which uses conversation context to sound natural.
 - [ChatTTS](https://github.com/2noise/ChatTTS) - Speech model tuned for conversational dialogue (AGPL).
@@ -78,6 +81,7 @@ Turn-taking, interruptions, streaming and transport are the hard parts. These ha
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for real-time voice agents over WebRTC, with turn detection and telephony.
 - [TEN Framework](https://github.com/TEN-framework/ten-framework) - Framework for conversational voice agents with real-time, multimodal pipelines.
 - [speech-to-speech](https://github.com/huggingface/speech-to-speech) - Hugging Face's modular open pipeline: VAD, STT, LLM and TTS, each swappable.
+- [Qwen Audio Agent](https://github.com/QwenAudio/qwen-audio-agent) - Qwen's real-time voice runtime that keeps talking while the agent calls tools or works on a task.
 
 ## Speech-native models
 
@@ -91,6 +95,7 @@ Models that take speech in, and sometimes give speech out, without a separate tr
 
 - [SpeechBrain](https://github.com/speechbrain/speechbrain) - PyTorch toolkit covering recognition, enhancement, separation, speaker recognition and more.
 - [ESPnet](https://github.com/espnet/espnet) - End-to-end speech processing toolkit for research: ASR, TTS, translation and speech enhancement.
+- [CrispASR](https://github.com/CrispStrobe/CrispASR) - One C++ binary (a whisper.cpp fork) that runs Whisper, Parakeet, Canary, Voxtral and many TTS models from GGUF files, with no Python.
 
 ## Benchmarks
 
