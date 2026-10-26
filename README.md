@@ -48,6 +48,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) - Microphone to text with VAD, wake words and low latency, built on faster-whisper.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Near-live transcription server and clients over WebSocket.
 - [HEX](https://github.com/anomalyco/hex) - Local dictation app in Rust: hold a shortcut, speak, and the text is pasted into any app. On-device models, macOS first.
+- [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) - Real-time local speech to text built on streaming research (SimulStreaming, WhisperStreaming), with speaker diarization and an OpenAI-compatible API.
 
 ## Text to speech
 
@@ -59,12 +60,14 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [CosyVoice](https://github.com/QwenAudio/CosyVoice) - Multilingual TTS with streaming output and voice cloning.
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast, lightweight TTS that runs well on a Raspberry Pi, used by Home Assistant.
 - [Coqui TTS](https://github.com/idiap/coqui-ai-TTS) - Maintained fork of the Coqui toolkit with many models, including XTTS voice cloning.
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot voice cloning: train a usable voice from about a minute of audio, with a web UI.
 - [Dia](https://github.com/nari-labs/dia) - Generates multi-speaker dialogue, including laughs and pauses, in one pass.
 - [VibeVoice](https://github.com/microsoft/VibeVoice) - Microsoft's open voice models: long-form multi-speaker TTS (up to 90 minutes, 4 speakers), a 0.5B real-time TTS and a multilingual ASR model.
 - [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) - LLM-based TTS with human-like intonation and emotion tags.
 - [CSM](https://github.com/SesameAILabs/csm) - Sesame's conversational speech model, which uses conversation context to sound natural.
 - [ChatTTS](https://github.com/2noise/ChatTTS) - Speech model tuned for conversational dialogue (AGPL).
 - [OpenVoice](https://github.com/myshell-ai/OpenVoice) - Instant voice cloning with control over tone, emotion and accent.
+- [OmniVoice](https://github.com/k2-fsa/OmniVoice) - Zero-shot voice cloning TTS from the k2-fsa (next-gen Kaldi) team, covering more than 600 languages.
 - [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) - Streams text to speech as it is generated, with many engines behind one API.
 
 ## Voice activity, wake words and speakers
