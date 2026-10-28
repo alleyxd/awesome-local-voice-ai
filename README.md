@@ -54,10 +54,12 @@ Every entry is open source and checked by hand. Each section starts with where t
 
 - [Kokoro](https://github.com/hexgrad/kokoro) - 82M-parameter model with natural speech, small enough to run beside an LLM on one GPU or on a CPU. Good default.
 - [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) - 100M-parameter multilingual TTS with voice cloning that runs in real time on a CPU, with an ONNX build.
+- [Audio8 TTS](https://github.com/Edge0-AI/Audio8_TTS) - Compact zero-shot voice cloning models in 0.6B and 0.1B sizes, with the 0.6B covering 23 languages.
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) - Expressive TTS with zero-shot voice cloning and emotion control.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - Flow-matching TTS with strong zero-shot voice cloning.
 - [Fish Speech](https://github.com/fishaudio/fish-speech) - Multilingual TTS and voice cloning with high quality from short references.
 - [CosyVoice](https://github.com/QwenAudio/CosyVoice) - Multilingual TTS with streaming output and voice cloning.
+- [dots.tts](https://github.com/studio-dots-ai/dots.tts) - 2B continuous autoregressive TTS with voice cloning, streaming output and a variant for instruction-based speech editing.
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast, lightweight TTS that runs well on a Raspberry Pi, used by Home Assistant.
 - [Coqui TTS](https://github.com/idiap/coqui-ai-TTS) - Maintained fork of the Coqui toolkit with many models, including XTTS voice cloning.
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot voice cloning: train a usable voice from about a minute of audio, with a web UI.
@@ -99,6 +101,7 @@ Models that take speech in, and sometimes give speech out, without a separate tr
 - [SpeechBrain](https://github.com/speechbrain/speechbrain) - PyTorch toolkit covering recognition, enhancement, separation, speaker recognition and more.
 - [ESPnet](https://github.com/espnet/espnet) - End-to-end speech processing toolkit for research: ASR, TTS, translation and speech enhancement.
 - [CrispASR](https://github.com/CrispStrobe/CrispASR) - One C++ binary (a whisper.cpp fork) that runs Whisper, Parakeet, Canary, Voxtral and many TTS models from GGUF files, with no Python.
+- [audio.cpp](https://github.com/0xShug0/audio.cpp) - Pure C++ inference engine on ggml for TTS, speech recognition, VAD, voice conversion and music models, with no Python.
 
 ## Benchmarks
 
