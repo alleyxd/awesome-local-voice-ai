@@ -71,6 +71,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [OpenVoice](https://github.com/myshell-ai/OpenVoice) - Instant voice cloning with control over tone, emotion and accent.
 - [OmniVoice](https://github.com/k2-fsa/OmniVoice) - Zero-shot voice cloning TTS from the k2-fsa (next-gen Kaldi) team, covering more than 600 languages.
 - [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) - Streams text to speech as it is generated, with many engines behind one API.
+- [Ito](https://github.com/lokutor-ai/ito) - Streaming English TTS that runs on an ESP32-S3 microcontroller with no cloud: 3.3M parameters, two voices, a 125 ms first chunk. Phonemization runs on the host. GPL-3.0 code; the weights are non-commercial (CC BY-NC-SA 4.0, gated).
 
 ## Voice activity, wake words and speakers
 
