@@ -102,6 +102,7 @@ Models that take speech in, and sometimes give speech out, without a separate tr
 - [ESPnet](https://github.com/espnet/espnet) - End-to-end speech processing toolkit for research: ASR, TTS, translation and speech enhancement.
 - [CrispASR](https://github.com/CrispStrobe/CrispASR) - One C++ binary (a whisper.cpp fork) that runs Whisper, Parakeet, Canary, Voxtral and many TTS models from GGUF files, with no Python.
 - [audio.cpp](https://github.com/0xShug0/audio.cpp) - Pure C++ inference engine on ggml for TTS, speech recognition, VAD, voice conversion and music models, with no Python.
+- [yovoice](https://github.com/leemysw/yovoice) - Local desktop studio built on audio.cpp for TTS, voice cloning and design, dubbing, subtitles and music generation, with an MCP server for agents.
 
 ## Benchmarks
 
