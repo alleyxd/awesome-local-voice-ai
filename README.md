@@ -93,6 +93,7 @@ Turn-taking, interruptions, streaming and transport are the hard parts. These ha
 Models that take speech in, and sometimes give speech out, without a separate transcription step.
 
 - [Moshi](https://github.com/kyutai-labs/moshi) - Full-duplex speech-text model that listens and speaks at the same time.
+- [Sophon-Realtime](https://github.com/adventists-ai/sophon-realtime) - Open full-duplex voice models that hear tone and emotion, speak with laughs and sighs, and call tools, with first audio in about 0.3 s. Needs one 80 GB GPU.
 - [Ultravox](https://github.com/fixie-ai/ultravox) - Multimodal LLM that understands speech directly, built for real-time voice agents.
 - [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni) - End-to-end model that understands text, images, audio and video and answers in text and speech.
 
