@@ -49,6 +49,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Near-live transcription server and clients over WebSocket.
 - [HEX](https://github.com/anomalyco/hex) - Local dictation app in Rust: hold a shortcut, speak, and the text is pasted into any app. On-device models, macOS first.
 - [BetterWispr](https://github.com/opennookorg/betterwispr) - Hold-to-talk dictation for macOS that transcribes on device with Whisper, Parakeet or Apple speech and types into any app.
+- [yogurt](https://github.com/FrigadeHQ/yogurt) - Meeting recorder that transcribes and summarizes microphone and call audio on your own machine, with speaker names from Zoom, Teams and Meet.
 - [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) - Real-time local speech to text built on streaming research (SimulStreaming, WhisperStreaming), with speaker diarization and an OpenAI-compatible API.
 
 ## Text to speech
