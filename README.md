@@ -42,6 +42,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 - [FunASR](https://github.com/modelscope/FunASR) - Speech recognition toolkit with streaming models, VAD and punctuation, strong for Chinese.
 - [Vosk](https://github.com/alphacep/vosk-api) - Lightweight offline recognition for Android, iOS, Raspberry Pi and servers, in 20+ languages.
 - [Kyutai STT](https://github.com/kyutai-labs/delayed-streams-modeling) - Kyutai's streaming speech-to-text (and text-to-speech) models built for low latency.
+- [Oruk Fourier 2B](https://huggingface.co/oruk/oruk-fourier-2b) - 2B-parameter English speech recognition model (Qwen3-ASR architecture, 5.52% Open ASR v1.16.3 avg WER) with local BF16, GGUF, ONNX and MLX weights (CC BY-NC 4.0).
 
 ### Real-time transcription
 
