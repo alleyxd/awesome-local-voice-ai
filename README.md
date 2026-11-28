@@ -76,6 +76,7 @@ Every entry is open source and checked by hand. Each section starts with where t
 
 ## Voice activity, wake words and speakers
 
+- [TEN VAD](https://github.com/ten-framework/ten-vad) - **TEN VAD** is a real-time voice activity detection system designed for enterprise use, providing accurate frame-level speech activity detection.
 - [Silero VAD](https://github.com/snakers4/silero-vad) - Small, accurate voice activity detector that runs in real time on a CPU. Good default.
 - [openWakeWord](https://github.com/dscripka/openWakeWord) - Open wake word detection with pre-trained models and training for custom words.
 - [pyannote.audio](https://github.com/pyannote/pyannote-audio) - Speaker diarization: who spoke when, plus speech activity and overlap detection.
